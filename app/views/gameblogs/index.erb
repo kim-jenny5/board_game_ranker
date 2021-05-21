@@ -1,0 +1,7 @@
+<h1>All Game Blogs!</h1>
+<% @game_blogs.each do |blog| %>
+  <%= blog.name %>
+  <img src= "<%= blog.img_url%>" >
+  <%= blog.rating%>
+  <%= blog.description%>
+<% end %>
